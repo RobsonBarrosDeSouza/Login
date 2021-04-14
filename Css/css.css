@@ -1,0 +1,121 @@
+nav{
+    background-color: #3498db;
+    color: #ffff;
+    padding: 30px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li a {
+    color: #ffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 8px;
+}
+
+nav li a:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+/*
+BODY DA PAGE
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #34495e;
+}
+
+.box {
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #191919;
+    text-align: center;
+}
+
+.box h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.box input[type = "email"], .box input[type = "password"], .box input[type = "text"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.box input[type = "email"]:focus, .box input[type = "password"]:focus, .box input[type = "text"]:focus {
+
+    width: 280px;
+    border-color: #2ecc71;
+}
+
+.box input[type = "submit"]{
+
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.box input[type = "submit"]:hover {
+    background: #2ecc71;
+}
+p, a {
+    color: white;
+}
+
+a:hover {
+    color: #2ecc71;
+    text-decoration: none;
+}
+
+h4 {
+    width: 500px;
+    overflow: hidden;
+    background: #f1f1f1;
+    box-shadow: 0 0 20px black;
+    border-radius: 8px;
+   position: relative;
+    top: 50%;
+    left: 50%;
+    transform:  translate(-50%, -50%);
+    z-index: 9999;
+    padding: 10px;
+    text-align: center;
+}
